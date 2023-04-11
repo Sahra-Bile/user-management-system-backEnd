@@ -1,0 +1,33 @@
+
+POST http://localhost:4444/users
+Content-Type:  application/json
+
+{
+  "firstName": "sahra",
+  "lastName": "Bile",
+  "age": 22,
+  "gender": "female",
+  "phone": 72324568333,
+  "email": "sahra.bile134@gmail.com"
+}
+###
+GET  http://localhost:4444/users
+
+###
+GET  http://localhost:4444/users/4
+
+###
+put http://localhost:4444/users/4
+Content-Type: application/json
+{
+     
+      "firstName": "sahra",
+      "lastName": "Bile",
+      "age": 22,
+      "gender": "female",
+      "phone": 72324568333,
+      "email": "sahra.bile134@gmail.com"
+}
+
+###
+DELETE http://localhost:4444/users/5
